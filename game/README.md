@@ -1,6 +1,6 @@
 # Game
 
-**TODO: Add description**
+Example using Elixir to spawn processes, and sending/receiving messages
 
 ## Installation
 

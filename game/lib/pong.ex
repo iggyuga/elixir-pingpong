@@ -5,12 +5,8 @@ defmodule Game.Pong do
 		  {sender_pid, :pong} ->
 				send(sender_pid, {:ok, message})
 		  _ ->
-			IO.puts("no fucking clue")
+			IO.puts("error")
 		  end
 		  loop(message)
-	  end
-	
-	  # defp send_message(message) do
-		# 	IO.puts(message)
-	  # end
+	 end
 end
